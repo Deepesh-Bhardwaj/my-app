@@ -1,0 +1,3 @@
+{
+	"data" : [{"name": "morning", "value": 120, "fill": "#0088FE", "data":"youtube" },{"name": "afternoon", "value": 120, "fill": "#00C49F","data":"youtube" },{"name": "evening", "value": 60, "fill": "#FFBB28","data":"youtube" },{"name": "night", "value": 60, "fill": "#FF8042","data":"youtube" }]
+}

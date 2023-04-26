@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.card {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 20px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+	position: relative;
+}
+
+.header-buttons {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	top: 0px;
+	margin: 20px;
+	justify-content: space-around;
+}
+
+button {
+	padding: 10px;
+	background-color: antiquewhite;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: transparent;
+}
+
+.chart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.evening {
+	position: absolute;
+	left:45px;
+}
+
+.morning {
+	position: absolute;
+	right:45px;
+}
+
+.night {
+	position: absolute;
+	top:85px;
+}
+
+.afternoon {
+	position: absolute;
+	bottom:85px;
+}
+
+.cross {
+	position: absolute;
+	display: flex;
+	width: 200px;
+	height: 160px;
+  }
+  
+  .cross::before,
+  .cross::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 2px;
+	background-color: black;
+  }
+  
+  .cross::before {
+	transform: rotate(45deg);
+  }
+  
+  .cross::after {
+	transform: rotate(-45deg);
+  }
+  
